@@ -1,0 +1,44 @@
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+
+.carousel-content {
+    display: flex;
+    overflow-x: hidden;
+
+}
+
+.carousel-content img {
+    width: 100%;
+    height: auto;
+    margin-right: 3px; /* Remover margens */
+    margin-left: 3px;
+    padding: 0px; /* Remover espaçamentos */
+   
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    z-index: 2;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0px;
+}

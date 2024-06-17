@@ -1,0 +1,59 @@
+header{
+    background-color: #D99C52;
+    padding: 25px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: auto;
+    margin-top: 0px;
+   
+}
+
+header nav{
+
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-family:"Dancing Script", cursive;
+    color: #ffff;
+    font-size: 50px;
+    margin: px;
+    padding: 0px;
+}
+
+header img{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+
+
+ }
+
+
+
+header nav a{
+    margin-right: 1.3em;
+    font-size: 1.5em;
+
+}
+
+header a:hover{
+    color: blue;
+
+}
+
+a{
+    color: #ffff;
+}
+
+
+
+
+    
+
+
+
